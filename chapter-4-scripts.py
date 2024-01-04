@@ -98,6 +98,7 @@ def reverse(S, start, stop):
         reverse(S, start+1, stop-1)         # recur on rest
 
 # Recursive Algorithms for Computing Powers
+# Code fragment 4.11
 def power(x, n):
     """Compute the value x**n for integer n."""
     if n == 0:
@@ -105,6 +106,7 @@ def power(x, n):
     else:
         return x * power(x, n-1)
 
+# Code fragment 4.12
 def power2(x, n):
     """Compute the value x**n for integer n."""
     if n == 0:
